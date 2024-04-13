@@ -1,3 +1,5 @@
+# Unpinned blobs from full_k63v2_64_bsp-user 10 QP1A.190711.020 1680584436 release-keys
+
 # Audio
 vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml
 vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml
