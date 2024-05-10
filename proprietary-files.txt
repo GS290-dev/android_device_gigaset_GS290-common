@@ -626,30 +626,32 @@ vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
+# IMS - from full_k65v1_64_bsp-user 10 QP1A.190711.020 mp1V91221 release-keys
+-framework/mediatek-common.jar|1da569557d5a525535cd1810ffbdb2432b628d58
+-framework/mediatek-framework.jar|77cf79906cac56ad655ef0ed05ec0d27d4406f2
+-framework/mediatek-ims-base.jar|0ec183735582da74d82fd8c01a1bbdcd73f6a1c2
+-framework/mediatek-ims-common.jar|fa9a65c79e81a16585ac743f04c2d2e9a367990b
+-framework/mediatek-ims-extension-plugin.jar|5aae16437bcfae7da5474a17ab08de4ea67e000a
+-framework/mediatek-ims-legacy.jar|d8813211112f6f3eb643626ed2d0aa14a9e89090
+-framework/mediatek-telecom-common.jar|0fb575de3abf56e709b9cbaad0085a13f702b789
+-framework/mediatek-telephony-base.jar|dec634bc6acfd8adbce0848c0736101170bb0058
+-framework/mediatek-telephony-common.jar|415ba595d8d4e507222f03e3090da3a23ef71f75
+-priv-app/ImsService/ImsService.apk|281eccc9e82d7f66baa1a7dd0363fe1867aa4e0d
+lib/libmtk_vt_service.so|647248e58fee8b3ff1d6ddb8ce048f257dd5a53f
+lib/libmtkavenhancements.so|d678907b5ad2e6e7377c3ab115c4b0aadb51c70b
+lib64/libmtkavenhancements.so|eb42a8d41841592fff7558b99bbd4791d1bd5cb5
+
 # MTK-IMS
--framework/mediatek-common.jar
--framework/mediatek-framework.jar
--framework/mediatek-ims-base.jar
--framework/mediatek-ims-common.jar
--framework/mediatek-ims-extension-plugin.jar
--framework/mediatek-ims-legacy.jar
--framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
--framework/mediatek-telephony-common.jar
--priv-app/ImsService/ImsService.apk|1bb78a0aac8de7ecbce5d0ee9432b3f701678601
 bin/vtservice
 etc/init/init.vtservice.rc
-lib/libmtk_vt_service.so
 lib/libmtk_vt_wrapper.so
 lib/libmtkaudio_utils.so
-lib/libmtkavenhancements.so
 lib/libmtklimiter.so
 lib/libmtkperf_client.so
 lib/libmtkshifter.so
 lib/vendor.mediatek.hardware.videotelephony@1.0.so
 lib64/libmtk_vt_wrapper.so
 lib64/libmtkaudio_utils.so
-lib64/libmtkavenhancements.so
 lib64/libmtklimiter.so
 lib64/libmtkperf_client.so
 lib64/libmtkshifter.so
